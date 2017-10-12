@@ -1,6 +1,9 @@
 body{background-color: black}
 h1{color:red}
 p{color: white}
-#images{
-    width:100%;
+
+
+img{
+    min-width: 40px;
+    min-length:40px;
 }
