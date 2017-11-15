@@ -25,11 +25,13 @@ portrait {
     text-align: center;
     font-size: 95px;
     font-weight: bold;
+    font-family: Helvetica;
     vertical-align: middle;
 }
 #navbox{
+    margin-top: 10px;
     width:auto;
-    height: 20px;
+    height: 22px;
     background-color: blue;
 }
 ul{
@@ -46,6 +48,7 @@ li a {
     color: white;
     text-align: center;
     width:100px;
+    height: 22px;
     text-decoration: none;
 }
 li a:hover{
