@@ -27,6 +27,30 @@ portrait {
     font-weight: bold;
     vertical-align: middle;
 }
+#navbox{
+    width:auto;
+    height: 20px;
+    background-color: blue;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    width:100px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: darkblue;
+}
 
 DIV.zentrieren{
     vertical-align: middle;
