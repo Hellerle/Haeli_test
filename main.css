@@ -89,8 +89,7 @@ select{
 .bilderlinks{
     float:left;
     margin-right: 10px;
-    margin-bottom: 10px;
-
+    margin-bottom: 3px;
 }
 .bilderbox{
     width:100%;
