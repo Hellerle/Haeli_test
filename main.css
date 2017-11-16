@@ -1,8 +1,9 @@
 body{}
 h1{color:cornflowerblue}
 p{color: black}
-ph{color: white}
-pblau{color: cornflowerblue}
+
+.blau{color: cornflowerblue}
+.white{color: white}
 
 
 portrait {
