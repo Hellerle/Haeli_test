@@ -32,7 +32,7 @@ portrait {
     margin-top: 10px;
     width:auto;
     height: 22px;
-    background-color: blue;
+    background-color: cornflowerblue;
 }
 ul{
     list-style-type: none;
@@ -42,12 +42,13 @@ ul{
 }
 li{
     float: left;
+    border-right: 1px solid white;
 }
 li a {
     display: block;
     color: white;
     text-align: center;
-    width:100px;
+    width:200px;
     height: 22px;
     text-decoration: none;
 }
@@ -65,4 +66,14 @@ DIV.zentrieren{
     font-weight: bold;
     
     
+}
+
+label{
+    width: 150px;
+    display: block;
+    float: left;
+}
+select{
+    width: 80px;
+    border: 1px solid black;
 }
