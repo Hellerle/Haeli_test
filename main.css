@@ -5,7 +5,12 @@ p{color: black}
 .blau{color: cornflowerblue}
 .white{color: white}
 .breite{max-width: 1000px}
-
+/*
+html,body{
+    padding: 0;
+    margin: 0;
+}
+*/
 
 portrait {
     width: 40%;
