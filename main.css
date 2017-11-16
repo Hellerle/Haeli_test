@@ -2,6 +2,7 @@ body{}
 h1{color:cornflowerblue}
 p{color: black}
 ph{color: white}
+pblau{color: cornflowerblue}
 
 
 portrait {
@@ -78,3 +79,19 @@ select{
     width: 80px;
     border: 1px solid black;
 }
+
+.bilderrechts{
+    float: right;
+    margin-left: 10px;
+}
+
+.bilderlinks{
+    float:left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.bilderbox{
+    width:100%;
+    height: auto;
+}
+.setclear{clear: both}
