@@ -4,6 +4,7 @@ p{color: black}
 
 .blau{color: cornflowerblue}
 .white{color: white}
+.breite{max-width: 1000px}
 
 
 portrait {
@@ -95,4 +96,4 @@ select{
     width:100%;
     height: auto;
 }
-.setclear{clear: both}
+.setclear{clear: both; max-width: 850px}
