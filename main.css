@@ -4,7 +4,8 @@ p{color: black}
 
 .blau{color: cornflowerblue}
 .white{color: white}
-.breite{max-width: 1000px}
+.breite{max-width: 1100px}
+.namen{color:cornflowerblue; font-size: 1.5em; margin-bottom: 6px;}
 /*
 html,body{
     padding: 0;
@@ -12,32 +13,40 @@ html,body{
 }
 */
 
+.bildbeschriftung{
+    margin: 0;
+}
+
+@media (min-device-width: 800px){
+    body{
+        max-width:1100px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left:3px;
+        padding-right: 3px;
+    } 
+}
+
+
 portrait {
     width: 40%;
     max-width: =50px;
     
 }
 
-#mybox{
-	width: 100%;
-	height: 100px;
+.headerbox{
+
+    width: 100%;
+    height: 100px;
     background-color: cornflowerblue;
-    margin-left: auto;
-    margin-right: auto;
-    vertical-align: middle;
-
-}
-#textbox{
-
-    width:100%;
-    height: auto;
     text-align: center;
+    line-height: 120px;
     font-size: 95px;
     font-weight: bold;
     font-family: Helvetica;
-    vertical-align: middle;
 }
-#navbox{
+
+.navbox{
     margin-top: 10px;
     width:auto;
     height: 22px;
@@ -51,11 +60,12 @@ ul{
 }
 li{
     float: left;
-    border-right: 1px solid white;
+    border-right: 2px solid white;
 }
 li a {
     display: block;
     color: white;
+    font-size: 20px;
     text-align: center;
     width:200px;
     height: 22px;
@@ -65,17 +75,90 @@ li a:hover{
     background-color: darkblue;
 }
 
-DIV.zentrieren{
-    vertical-align: middle;
-    text-align: center;
-        align-items: center;
-        vertical-align: middle;
-    text-align: center;
-    font-size: 80px;
-    font-weight: bold;
-    
-    
+@media (max-device-width: 800px){
+    .headerbox{
+
+        width: 100%;
+        height: 150px;
+        background-color: cornflowerblue;
+        text-align: center;
+        line-height: 180px;
+        font-size: 140px;
+        font-weight: bold;
+        font-family: Helvetica;
+    }
+
+    .navbox{
+        margin-top: 20px;
+        width:auto;
+        height: 50px;
+        background-color: cornflowerblue;
 }
+    .menu{
+        display: flex;
+    }
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+}
+    li{
+        float: left;
+        border-right: 2px solid white;
+        display: inline;
+        width: 25%
+}
+    li a {
+        display: block;
+        color: white;
+        font-size: 45px;
+        text-align: center;
+        line-height: 50px;
+        width:200px;
+        height: 50px;
+        text-decoration: none;
+        width: 100%;
+    }
+    li a:hover{
+        background-color: darkblue;
+    }
+}
+
+
+}
+
+.figuren{
+    padding-left: 0px;
+    max-width: 850px;
+    margin-bottom: 10px;
+    max-width: 850px;
+
+}
+
+.bilderlinks{
+    float:left;
+    margin-right: 10px;
+}
+
+.setclear{
+    margin-top: 20px;
+    max-width: 800px;
+}
+@media (max-device-width: 800px){
+    .setclear{
+        margin-top: 70px;
+        max-width: 85%
+    }   
+}
+
+.setclear:after{
+    
+    content:"";
+    display: table;
+    clear: both;
+}
+
 
 label{
     width: 180px;
@@ -87,18 +170,7 @@ select{
     border: 1px solid black;
 }
 
-.bilderrechts{
-    float: right;
-    margin-left: 10px;
-}
 
-.bilderlinks{
-    float:left;
-    margin-right: 10px;
-    margin-bottom: 3px;
+
+
 }
-.bilderbox{
-    width:100%;
-    height: auto;
-}
-.setclear{clear: both; max-width: 850px}
