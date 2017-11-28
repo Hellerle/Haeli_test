@@ -108,7 +108,7 @@ li a:hover{
 }
     li{
         float: left;
-        border-right: 2px solid white;
+        border-right: 2px solid grey;
         display: inline;
         width: 25%
 }
