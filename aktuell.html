@@ -22,21 +22,19 @@
                 </ul>
 
         </nav>
+        
 
+    <div class="slideshow">
 
-    <div class="w3-content w3-display-container">
-
-        <div class="w3-display-container mySlides">
+        <div class="slides">
             <img src="Slide0.JPG" style="height:400px">
-        <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
-            2
+        <div>
         </div>
     </div>
 
-    <div class="w3-display-container mySlides">
+    <div class="slides">
         <img src="Slide1.JPG" style="height: 400px">
-        <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-            1
+        <div>
         </div>
     </div>   
 
@@ -57,7 +55,7 @@
             
             function showDivs(n){
                 var i;
-                var x= document.getElementsByClassName("mySlides");
+                var x= document.getElementsByClassName("slides");
                 if(n>x.length){slideIndex=1}
                 if(n<1) {slideIndex = x.length}
                 for(i=0; i<x.length; i++){
