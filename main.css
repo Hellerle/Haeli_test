@@ -87,7 +87,7 @@ li a {
 }
 li a:hover{
     color: white;
-    background-color: orangered;
+    background-color: red;
 }
 
 @media (max-device-width: 800px){
@@ -137,7 +137,7 @@ li a:hover{
     }
     li a:hover{
         color: white;
-        background-color: orangered;
+        background-color: red;
     }
 }
 
