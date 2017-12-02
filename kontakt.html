@@ -6,6 +6,9 @@
     </head>
 
     <body>
+        
+
+        
         <header>
             <div class="headerbox">
                 <h1 class="white">H Ä L I</h1>
@@ -25,31 +28,19 @@
         <h2>Kontakt</h2>
         <p>Scheuen Sie nicht, mit einer Frage oder einem Wunsch auf Häli zuzugehen. Er freut sich über jegliches Interesse.</p>
         
-        <form formular>
 
-            <label for anrede>Anrede:</label>
-            <div class="select_anrede">
-                <select>
-                    <option selected="selected" disabled="disabled"></option>
-                    <option>Herr</option>
-                    <option>Frau</option>
-                </select>
-            </div>
-            <br>
-            <label for="name">Name:</label>
-            <input type="text" name="name"/ required> <br><br>
-            <label for="vorname">Vorname:</label> 
-            <input type="text" name="vorname"/ required> <br><br>
-            <label for="email">E-Mail:</label> 
-            <input type="text" name="vorname"/ required> <br><br>
-            <label for="mitteilung">Mitteilung:</label>
-            <textarea name="mitteilung" cols="50" rows=10></textarea> <br> <br>
-            <label for="checkbox">Newsletter abonnieren?</label>
-            <input type="checkbox" value="0"/> <br><br> <br>
-            
+        <form action="kontaktformular_db.php" method="post">
+            <p>Anrede: <input type="text" name="Anrede" required= "required"></p>
+            <p>Name: <input type="text" name="Name" required= "required"></p>
+            <p>Vorname: <input type="text" name="Vorname"  maxlength="30" required= "required"></p>
+            <p>E-Mail: <input type="email" name="EMail" maxlength="30" required= "required"></p>
+            <p>Mitteilung: <input type="text" name="Mitteilung" maxlength="1000"></p>
+            <p>Newsletter abonnieren? <input type="checkbox" name="Newsletter"></p>
+            <p><input type="submit" value="Abschicken"></p>
+        </form>
+        
 
-		  <button> Absenden</button>
-	   </form>
+        
         
        <h2>Ihr privater Anlass</h2>
         <p>Wünschen Sie sich für Ihren Anlass eine Abwechslung mit etwas Aufheiterung?
@@ -58,3 +49,4 @@
         </p>
     </body>
 </html>
+
