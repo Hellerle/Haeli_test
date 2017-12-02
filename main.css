@@ -1,7 +1,7 @@
 body{background-image: url("hintergrund/hintergrund_bright.jpg")}
 h2{
     color:#8B0000;
-    font-size: 35px;
+    font-size: 33px;
 }
 
 p{
@@ -82,7 +82,7 @@ ul{
 }
 li{
     float: left;
-    border-right: 2px solid grey;
+    border-right: 2px solid #BDBDBD;
 }
 li a {
     display: block;
@@ -90,11 +90,12 @@ li a {
     font-size: 24px;
     text-align: center;
     width:200px;
+
     height: 27px;
     text-decoration: none;
 }
 li a:hover{
-    color: white;
+    color: black;
     background-color: red;
 }
 
@@ -128,7 +129,7 @@ li a:hover{
 }
     li{
         float: left;
-        border-right: 2px solid grey;
+        border-right: 2px solid #BDBDBD;
         display: inline;
         width: 25%
 }
@@ -144,7 +145,7 @@ li a:hover{
         width: 100%;
     }
     li a:hover{
-        color: white;
+        color: black;
         background-color: red;
     }
     
