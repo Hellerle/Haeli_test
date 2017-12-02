@@ -30,13 +30,17 @@
         
 
         <form action="kontaktformular_db.php" method="post">
-            <p>Anrede: <input type="text" name="Anrede" required= "required"></p>
-            <p>Name: <input type="text" name="Name" required= "required"></p>
-            <p>Vorname: <input type="text" name="Vorname"  maxlength="30" required= "required"></p>
-            <p>E-Mail: <input type="email" name="EMail" maxlength="30" required= "required"></p>
-            <p>Mitteilung: <input type="text" name="Mitteilung" maxlength="1000"></p>
-            <p>Newsletter abonnieren? <input type="checkbox" name="Newsletter"></p>
-            <p><input type="submit" value="Abschicken"></p>
+            <p><label for="Anrede">Anrede:</label> 
+                <select name="Anrede">
+                    <option value="Herr">Herr</option>
+                    <option value="Frau">Frau</option>
+                </select></p>
+            <p><label for="Name">Name:</label> <input type="text" name="Name" required= "required"></p>
+            <p><label for="Vorname">Vorname:</label> <input type="text" name="Vorname"  maxlength="30" required= "required"></p>
+            <p><label for="EMail">E-Mail:</label> <input type="email" name="EMail" maxlength="30" required= "required"></p>
+            <p><label for="Mitteilung">Mitteilung:</label> <textarea name="Mitteilung" cols="50" rows="10"></textarea></p>
+            <p><label for="Newsletter">Newsletter abonnieren?</label> <input type="checkbox" name="Newsletter"></p>
+            <p><input type="submit" class="senden" value="Abschicken"></p>
         </form>
         
 
