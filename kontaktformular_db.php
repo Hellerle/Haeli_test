@@ -17,6 +17,7 @@
             $sql .= "VALUES ('$Anrede','$Name','$Vorname','$EMail','$Mitteilung','$Newsletter')";
             $abfrage = mysqli_query($verbindung, $sql);
             mysqli_close($verbindung);
+            header("Location: http://localhost/haeli_test/kontakt.html");
     ?>
 
 </body>  
